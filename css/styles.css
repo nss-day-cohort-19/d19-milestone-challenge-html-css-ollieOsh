@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F5F5F6;
+}
+
+header {
+	height: 60vh;
+	background: /*linear-gradient(rgba(255,255,255,0) 30%, rgba(255,255,255,1)),*/ url("../images/ashley-knedler-43546.jpg");
+	background-size: cover;
+}
+
+#header{
+	padding-top: 50px;
+	padding-left: 10%;
+}
+
+#profile-pic {
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#profile-pic img{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	border-radius: 100%;
+	margin: 0 auto;
+	opacity: 0.8;
+}
+
+nav {
+	/*background-color: #607d8b;*/
+	/*background-color: #c4e0a4;*/
+	/*background-color: #93ae75;*/
+	background-color: #34515e;
+}
+
+nav li {
+	display: inline-block;
+}
+
+#references {
+	background-color: #93ae75;
+	background-color: #c4e0a4;
+}
+
+h3 {
+	background-color: #8eacbb;
+}
+
+footer {
+	/*background-color: #93ae75;*/
+	background-color: #34515e;
+}
